@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+.all-content{
+  background: #f7f5f2;
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #048709;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar{
+  width: 10px;
+}
+/* navbar */
+#navbar{
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+#logo img{
+  border-radius: 10px;
+  width:90px;
+  margin-left: 40px;
+  height: 90px;
+}
+.navbar-nav{
+  margin-left: 50px;
+}
+.nav-item .nav-link{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+  background: #3a8710;
+  border-radius: 5px;
+  color: black;
+}
+#navbar form button{
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+/* navbar */
+
+
+
+
+/* Main content styles */
+main {
+    background-color: #e8f5e9; /* Very light green */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #004d00; /* Darker green */
+}
+
+.news-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px; /* Reduced padding for a smaller box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center align */
+    max-width: 500px; /* Limit the maximum width of the box */
+    width: 90%; /* Make the box responsive */
+}
+
+.news-item img.news-img {
+    max-width: 60%; /* Keep the image smaller */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Reduced margin for better fit */
+    display: block; /* Ensures image is block-level and centered */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-item h2 {
+    color: #004d00; /* Darker green */
+}
+
+.btn-primary {
+    background-color: #006400; /* Dark green */
+    border-color: #004d00; /* Slightly darker green for border */
+}
+
+.btn-primary:hover {
+    background-color: #004d00;
+    border-color: #003300;
+}
+
+
+/* footer */
+.footer-logo img{
+  width: 90px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+html{
+  scroll-behavior: smooth;
+}
+.arrow{
+  position: fixed;
+  border-radius: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
+.footer {
+  background-color: #198754;
+  color: white;
+  padding: 20px 0;
+}
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}

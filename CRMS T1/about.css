@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+.all-content{
+background: #f7f5f2;
+}
+html::-webkit-scrollbar-track{
+background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+background: #048709;
+border-radius: 10px;
+}
+html::-webkit-scrollbar{
+width: 10px;
+}
+
+
+
+/* navbar */
+#navbar{
+background-color: #ffffff;
+font-family: 'Roboto', sans-serif;
+}
+#logo img{
+border-radius: 10px;
+width:90px;
+margin-left: 40px;
+height: 90px;
+}
+.navbar-nav{
+margin-left: 50px;
+}
+.nav-item .nav-link{
+color: black;
+margin-left: 10px;
+font-weight: bold;
+transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+background: #3a8710;
+border-radius: 5px;
+color: black;
+}
+#navbar form button{
+background: black;
+color: white;
+border: 1px solid white;
+}
+/* navbar */
+
+
+/* our team */
+.section-title {
+text-align: center;
+margin-bottom: 50px;
+font-size: 36px;
+color: #4CAF50;
+}
+
+.our-team {
+padding: 50px 0;
+background-color: #e8f5e9;
+}
+
+.team-members {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.team-member {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.team-member img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-bottom: 15px;
+}
+
+.team-member h3 {
+margin-bottom: 5px;
+color: #4CAF50;
+}
+
+.team-member p {
+margin-bottom: 15px;
+}
+
+.team-member .btn {
+background-color: #4CAF50;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+.team-member .bio {
+display: none;
+color: #333;
+}
+
+/* footer */
+.footer-logo img{
+width: 90px;
+border-radius: 10px;
+margin-top: 30px;
+cursor: pointer;
+}
+html{
+scroll-behavior: smooth;
+}
+.arrow{
+position: fixed;
+border-radius: 50px;
+height: 50px;
+bottom: 40px;
+right: 50px;
+text-decoration: none;
+text-align: center;
+line-height: 50px;
+}
+.footer {
+background-color: #198754;
+color: white;
+padding: 20px 0;
+}
+.footer a {
+color: white;
+}
+.footer a:hover {
+text-decoration: underline;
+}
+.footer .footer-logo {
+font-size: 24px;
+font-weight: bold;
+}
